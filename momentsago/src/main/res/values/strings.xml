@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">momentago</string>
+    <string name="moment_just_now">Just now</string>
+    <string name="moment_minutes_ago">%d minute(s) ago</string>
+    <string name="moment_hours_ago">%d hour(s) ago</string>
+    <string name="moment_days_ago">%d day(s) ago</string>
+    <string name="moment_weeks_ago">%d week(s) ago</string>
+    <string name="moment_years_months_ago">%1$d year(s) and %2$d month(s) ago</string>
+
+    <plurals name="moment_months_ago">
+        <item quantity="one">1 month ago</item>
+        <item quantity="other">%d months ago</item>
+    </plurals>
+
+    <plurals name="moment_years_ago">
+        <item quantity="one">1 year ago</item>
+        <item quantity="other">%d years ago</item>
+    </plurals>
+</resources>
