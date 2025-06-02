@@ -45,13 +45,13 @@ afterEvaluate {
                 from(components["release"])
 
                 groupId = "com.github.IshworSubedi13" // Required GitHub format
-                artifactId = "momentago"
+                artifactId = "momentsago"
                 version = "1.0.0"
 
                 pom {
-                    name.set("Momentago")
+                    name.set("Momentsago")
                     description.set("An simple Android library.")
-                    url.set("https://github.com/IshworSubedi13/momentago")
+                    url.set("https://github.com/IshworSubedi13/momentsago")
                 }
             }
         }
@@ -59,7 +59,7 @@ afterEvaluate {
         repositories {
             maven {
                 name = "GitHubPackages"
-                url = uri("https://maven.pkg.github.com/IshworSubedi13/momentago")
+                url = uri("https://maven.pkg.github.com/IshworSubedi13/momentsago")
                 credentials {
                     credentials {
                         username = (project.findProperty("gpr.user") ?: System.getenv("GITHUB_USERNAME")).toString()
