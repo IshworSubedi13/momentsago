@@ -6,6 +6,7 @@
     <string name="moment_days_ago">%d day(s) ago</string>
     <string name="moment_weeks_ago">%d week(s) ago</string>
     <string name="moment_years_months_ago">%1$d year(s) and %2$d month(s) ago</string>
+    <string name="moment_yesterday">Yesterday</string>
 
     <plurals name="moment_months_ago">
         <item quantity="one">1 month ago</item>
