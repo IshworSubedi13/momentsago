@@ -35,6 +35,8 @@ public class MomentsAgo {
             return context.getString(R.string.moment_minutes_ago, minutes);
         } else if (hours < 24) {
             return context.getString(R.string.moment_hours_ago, hours);
+        }else if (days == 1) {
+                return context.getString(R.string.moment_yesterday);
         } else if (days < 7) {
             return context.getString(R.string.moment_days_ago, days);
         } else if (days < 30) {
