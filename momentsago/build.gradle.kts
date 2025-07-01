@@ -49,7 +49,7 @@ afterEvaluate {
                 version = "1.0.0"
 
                 pom {
-                    name.set("Momentago")
+                    name.set("Momentsago")
                     description.set("An simple Android library.")
                     url.set("https://github.com/IshworSubedi13/momentsago")
                 }
